@@ -1,0 +1,41 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# .NET tooling and test output
+[Tt]est[Rr]esult*/
+[Bb]enchmarkDotNet.Artifacts/
+project.lock.json
+project.fragment.lock.json
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Coverage reports
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
